@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const api_url = 'https://localhost:5173/api';
+const api_url = 'https://convo-50tn.onrender.com/api';
 
 const chatApi = axios.create({
     baseURL: api_url,
